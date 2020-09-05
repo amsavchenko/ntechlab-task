@@ -11,8 +11,8 @@ def findMaxSubArray(A: list) -> list:
         # numbers[i] equals to the sum of elements
         # of max subarray where A[i] is the last element.
         # so if numbers[i - 1] <= 0,
-        # we don't want to sum the sum of that subarray
-        # with number[i], we should keep it equals to A[i]
+        # we don't want to add the sum of that subarray
+        # to numbers[i] and we should keep it equals to A[i]
         if numbers[i - 1] > 0:
             numbers[i] += numbers[i - 1]
             subarrays[i] = subarrays[i - 1] + subarrays[i]
