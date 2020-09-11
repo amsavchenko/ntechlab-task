@@ -43,7 +43,7 @@ To run again training process of the model launch `notebooks/train_cnn.ipynb`.
 
 ###  Dataset
 
-Full dataset provided by [NtechLab](https://ntechlab.ru) consists 100k of photos equally devided between females and males. Photos have different shape and hence quality. 
+Full dataset provided by [NtechLab](https://ntechlab.ru) consists 100k of photos equally divided between females and males. Photos have different shape and hence quality. 
 
 Photos were divided up into three subsets - train (15k photos), validation (3k photos) and hold (10k photos). In every subset classes are still balanced.
 
